@@ -1,4 +1,6 @@
-const no = {
+import type { TranslationKeys } from "./en";
+
+const no: TranslationKeys = {
   // Common
   common: {
     save: "Lagre",
@@ -186,5 +188,4 @@ const no = {
   },
 };
 
-export type TranslationKeys = typeof no;
 export default no;
