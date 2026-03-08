@@ -23,6 +23,7 @@ This repository contains the language files used for the **1of1 Servers Web Queu
 
 - English (`eng.ts`)
 - Spanish (`es.ts`)
+- Norwegian (`no.ts`)
 
 ## Contributing
 
