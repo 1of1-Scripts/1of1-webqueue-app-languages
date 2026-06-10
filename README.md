@@ -1,6 +1,6 @@
 # 1of1 Web Queue – Language Translations
 
-This repository contains the language files used for the **1of1 Servers Web Queue script**. We welcome the community to help translate the queue into additional languages. 
+This repository contains the language files used for the **1of1 Servers Web Queue script**. We welcome the community to help translate the queue, tickets, applications, and Discord notification text into additional languages.
 
 ## How to Contribute
 
@@ -11,20 +11,27 @@ This repository contains the language files used for the **1of1 Servers Web Queu
    - `fr.ts` for French
    - `de.ts` for German
    - `no.ts` for Norwegian
-3. Translate the values while **keeping the keys exactly the same**.
+   - `tr.ts` for Turkish
+   - `fr.ts` for French
+3. Translate the values while **keeping the keys and any text inside {} exactly the same**.
 4. Submit a **Pull Request** with the new language file.
+
+**Additionally there is a new feature available within the web queue. Language settings can now be edited directly within the panel and the translation can be downloaded directly to submit for your pull request**
 
 ## Guidelines
 
 - Do not change the keys or structure from `eng.ts`.
 - Only translate the text values.
-- Make sure formatting and placeholders remain intact.
+- Make sure formatting and placeholders remain intact, including placeholders like `{ticket_id}`, `{ticket_title}`, `{application_title}`, and `{position}`.
+- Discord notification text lives under the `discord_notifications` section.
 
 ## Current Languages
 
 - English (`eng.ts`)
 - Spanish (`es.ts`)
 - Norwegian (`no.ts`)
+- Turkish (`tr.ts`)
+- French (`fr.ts`)
 
 ## Contributing
 
